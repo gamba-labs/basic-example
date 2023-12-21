@@ -1,4 +1,18 @@
 body {
   margin: 0;
+}
+
+body, button, input {
+  font-size: 16px;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+  padding: 10px 20px;
+  cursor: pointer;
+  background: orange;
+  border-radius: 5px;
+  border: none;
+  font-weight: bold;
+  margin: 0;
 }
