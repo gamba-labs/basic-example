@@ -20,10 +20,12 @@ function Root() {
     [],
   )
 
+  const endpoint = "https://api.mainnet-beta.solana.com"
+
   return (
     <HashRouter>
       <ConnectionProvider
-        endpoint={import.meta.env.VITE_RPC_ENDPOINT}
+        endpoint={endpoint}
         config={{ commitment: 'processed' }}
       >
         <WalletProvider autoConnect wallets={wallets}>
